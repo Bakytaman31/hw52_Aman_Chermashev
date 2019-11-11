@@ -24,7 +24,6 @@ class App extends Component {
   render() {
       return (
         <div style={{display: "flex"}}>
-            <h1>SOME</h1>
             {this.state.numbers.map((num,index)=>{
                 return <Circles number={num} key={index}/>
             })}
